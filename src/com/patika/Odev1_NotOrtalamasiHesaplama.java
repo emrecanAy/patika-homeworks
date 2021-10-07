@@ -2,7 +2,7 @@ package com.patika;
 
 import java.util.Scanner;
 
-public class Odev1 {
+public class Odev1_NotOrtalamasiHesaplama {
 
     public static void main(String[] args) {
 
