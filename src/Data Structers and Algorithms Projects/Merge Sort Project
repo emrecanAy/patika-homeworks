@@ -1,0 +1,27 @@
+
+
+Merge Sort Projesi
+
+Sayı dizisi : [16, 21, 11, 8, 12, 22]
+
+1-) Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+         16,21,11                     8,12,22
+     16,21       11               8,12       22
+  16      21     11             8     12     22
+
+               11,16,21       8,12,22
+                  8,11,12,16,21,22
+
+
+2-) Big-O gösterimini yazınız.
+
+ Her işlemde n-1 değere bakıyor. Time complexity'si O(n) olmuş olur.
+
+ Peki O(n) işlemini kaç defa yapıyorum?
+ Her seferinde yarıya iniyor. O zaman;
+ 2ˣ = n(eleman sayısı)
+ x = logn
+
+ Her işlemde O(n) time complexity'si geliyor.
+ n * O(logn) = O(nlogn)
